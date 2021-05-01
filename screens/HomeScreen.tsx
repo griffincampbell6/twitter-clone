@@ -4,6 +4,7 @@ import { StyleSheet } from 'react-native';
 import EditScreenInfo from '../components/EditScreenInfo';
 import { Text, View } from '../components/Themed';
 import Feed from '../components/Feed';
+import NewTweetButton from '../components/NewTweetButton';
 
 import tweets from '../data/tweets';
 
@@ -11,6 +12,7 @@ export default function HomeScreen() {
   return (
     <View style={styles.container}>
       <Feed />
+      <NewTweetButton />
     </View>
   );
 }
